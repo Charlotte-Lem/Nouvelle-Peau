@@ -2720,16 +2720,17 @@ input::-moz-focus-inner {
 }
 
 .masonry-wrap {
-  width: 89%;
+  width: 100%;
   max-width: 1400px;
-  margin-top: 11.2rem;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-top: 11.2rem; */
+  /* margin-right: auto;
+  margin-left: auto; */
+  margin: 5rem auto;
 }
 
 .masonry .grid-sizer,
 .masonry__brick {
-  width: 50%;
+  width: 33%;
 }
 
 .masonry__brick {
