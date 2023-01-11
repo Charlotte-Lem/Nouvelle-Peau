@@ -1,7 +1,7 @@
 {
   "name": "nouvelle-peau",
   "version": "1.0.0",
-  "description": "---",
+  "description": "Site pour salon de tatouage Nouvelle Peau à Sainte-Catherine près d'Arras",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/Charlotte-Lem/Nouvelle-Peau.git"
   },
   "keywords": [],
-  "author": "LCDev",
-  "license": "ISC",
+  "author": "LC DWeb",
+  "license": "",
   "bugs": {
     "url": "https://github.com/Charlotte-Lem/Nouvelle-Peau/issues"
   },
