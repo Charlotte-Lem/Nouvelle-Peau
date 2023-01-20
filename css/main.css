@@ -54,7 +54,7 @@
 
 html {
   font-size: 10px;
-  
+
 }
 
 @media screen and (max-width: 400px) {
@@ -163,9 +163,11 @@ h4 {
 }
 
 p.lead {
+
+  text-align: justify;
   font-family: 'Lora', serif;
   font-weight: 300;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
   color: #000000;
@@ -306,11 +308,9 @@ ul {
 
 
 
------------------------------------------------------------------- */
-
-.heading-block {
+------------------------------------------------------------------ */ .heading-block {
   position: relative;
-  
+
 }
 
 .heading-block--center {
@@ -646,7 +646,7 @@ ul {
 
   .header-logo img {
     display: none;
-  
+
   }
 
   .header-nav-wrap {
@@ -1025,25 +1025,6 @@ ul {
   }
 }
 
-/* ===================================================================
- * # services
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * services
- * ------------------------------------------------------------------- */
-
-/* ===================================================================
- * # CTA
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * cta
- * ------------------------------------------------------------------- */
 
 /* ===================================================================
  * # works
@@ -1380,11 +1361,13 @@ ul {
 .contact-social ul li:first-child::before {
   display: none;
 }
-.contact-mail__donnees{
+
+.contact-mail__donnees {
   font-size: 11px;
   font-style: italic;
   display: inline;
 }
+
 /* ------------------------------------------------------------------- 
 * responsive:
 * contact
@@ -1482,6 +1465,7 @@ footer a:hover {
   flex-direction: row;
 }
 
+
 .footer-social {
   display: flex;
 
@@ -1533,7 +1517,7 @@ footer a:hover {
  * ------------------------------------------------------------------- */
 .ss-go-top {
   position: fixed;
-  top: 95vh;
+  top: 90vh;
   right: 2rem;
   z-index: 2;
 }
@@ -1615,11 +1599,19 @@ footer a:hover {
   .ss-go-top::after {
     display: none;
   }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .ss-copyright {
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
     padding: 0;
     text-align: center;
   }
@@ -1633,7 +1625,7 @@ footer a:hover {
   }
 
   .ss-go-top {
-    right: 15%;
+    right: 10%;
     margin-right: -30px;
   }
 }
@@ -1665,6 +1657,55 @@ footer a:hover {
   width: 100%;
   position: absolute;
 }
+
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 /* ===================================================================
  * # IE10/IE11 Specific

@@ -13,8 +13,17 @@
     ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- GOOGLE FONTS
+    ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap"
+    rel="stylesheet">
+
   <!-- CSS
     ================================================== -->
+
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
@@ -35,6 +44,17 @@
 <body id="top">
   <div id="preloader">
     <div id="loader"></div>
+  </div>
+  <div id="cookie-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Our website uses cookies to enhance your experience. By continuing to use our website, you consent to our use
+        of cookies.</p>
+      <div class="button-group">
+        <button id="accept-cookies" class="button">Accept</button>
+        <button id="decline-cookies" class="button">Decline</button>
+      </div>
+    </div>
   </div>
 
   <!-- site header
@@ -132,10 +152,15 @@
       <div class="row about-me__content" data-aos="fade-up">
         <div class="column large-full about-me__text">
           <p class="lead">
-            Nulla aspernatur nam et accusantium. Tempore delectus dignissimos
-            aut ab commodi. Labore et cupiditate temporibus odio debitis
-            eaque. Officia provident aut iste et dicta perferendis. Velit iure
-            adipisci. Molestiae qui fuga rerum facilis.
+            Bienvenue au salon de tatouage Nouvelle Peau, où vous trouverez une expérience de tatouage unique et
+            personnalisée. Je m'appelle Estelle Lemoine et je suis la seule artiste du salon. Je suis diplômée de
+            l'École des beaux-arts, qui a perfectionné mes compétences et m'a donné les capacités artistiques
+            nécessaires pour créer des tatouages vraiment uniques pour mes clients. Je suis très fier de mon travail et
+            je me consacre à fournir à chaque client un tatouage qu'il aimera toute sa vie. Que vous recherchiez un
+            petit dessin délicat ou une grande pièce détaillée, je suis là pour vous aider à donner vie à vos idées de
+            tatouage.
+            <br>
+            N'hésitez pas à venir pousser la porte du salon ou à me contacter pour vos futurs projets !
           </p>
         </div>
       </div>
@@ -294,15 +319,15 @@
         <div class="masonry__brick" data-aos="fade-up">
           <div class="item-folio">
             <div class="item-folio__thumb">
-              <a href="images/work/imgwork7.webp" class="thumb-link" title="" data-size="500x800">
+              <a href="images/work/imgwork7.webp" class="thumb-link" title="Catrina" data-size="500x800">
                 <img src="images/work/imgwork7.webp" srcset="
                       images/work/imgwork7.webp 1x,
                       images/work/imgwork7.webp 2x
-                    " alt="Santa Muerte tattoo">
+                    " alt="Catrina tattoo">
               </a>
             </div>
             <div class="item-folio__text">
-              <h4 class="item-folio__title">S</h4>
+              <h4 class="item-folio__title">Catrina</h4>
               <p class="item-folio__cat">Nouvelle Peau</p>
             </div>
             <div class="item-folio__caption">
@@ -765,7 +790,8 @@
             en cliquant ici.
           </a>
         </p>
-        <span class="contact-mail__donnees">* Vos informations seront utilisées uniquement pour répondre à votre demande. Nous ne partagerons jamais vos données. </span>
+        <span class="contact-mail__donnees">* Vos informations seront utilisées uniquement pour répondre à votre
+          demande. Nous ne partagerons jamais vos données. </span>
       </div>
     </div>
 
