@@ -30,6 +30,9 @@
 
   <!-- script
     ================================================== -->
+    <!-- <script src="js/js-cookie.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
 
   <!-- favicons
     ================================================== -->
@@ -43,7 +46,7 @@
   <div id="preloader">
     <div id="loader"></div>
   </div>
-  <div id="cookie-modal" class="modal">
+  <!-- <div id="cookie-modal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
       <p>Our website uses cookies to enhance your experience. By continuing to use our website, you consent to our use
@@ -53,7 +56,15 @@
         <button id="decline-cookies" class="button">Decline</button>
       </div>
     </div>
+  </div> -->
+  <!-- <button id="accept-cookie">Accepter les cookies</button> -->
+
+  <div id="cookie-modal">
+    <p>Notre site utilise des cookies pour améliorer votre expérience. Cliquez sur Accepter pour continuer à utiliser
+      notre site.</p>
+    <button id="accept-cookie">Accepter</button>
   </div>
+
 
   <!-- site header
     ================================================== -->
@@ -931,6 +942,7 @@
   <!-- Java Script
     ================================================== -->
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/js-cookie.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
   <script src="js/plugins.js"></script>
