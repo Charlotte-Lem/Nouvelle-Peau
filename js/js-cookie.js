@@ -1,9 +1,18 @@
 var cookieModal = document.getElementById("cookie-modal");
 var acceptBtn = document.getElementById("accept-cookie");
-
-// cookieModal.style.display = "block";
-
-acceptBtn.onclick = function () {
+// Check if the cookie has already been accepted
+if (Cookies.get("cookie-consent")) {
   cookieModal.style.display = "none";
-  Cookies.set("cookie-consent", "accepted", { expires: 365, sameSite: "none" ,secure:true});};
- 
+}
+else {
+  acceptBtn.onclick = function () {
+    if ("cookie-consent" == "accepted") {
+      cookieModal.style.display = 'none';
+    }
+    cookieModal.style.display = "none";
+    Cookies.set("cookie-consent", "accepted", { expires: 365, sameSite: "none", secure: true });
+  };
+}
+
+
+
