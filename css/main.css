@@ -565,7 +565,7 @@ ul {
   transition: all 0.3s;
   position: absolute;
   right: 32px;
-  top: 18px;
+  top: 10px;
 }
 
 .header-menu-toggle:hover,
@@ -977,7 +977,11 @@ ul {
   columns: 2 360px;
   column-gap: 64px;
 }
+.warning{
+  font-style:italic;
+  border-bottom: 1px solid black;
 
+}
 /* -------------------------------------------------------------------
  * ## timeline
  * ------------------------------------------------------------------- */
@@ -1293,6 +1297,7 @@ ul {
   color: black;
   background-color: white;
   text-align: center;
+
 }
 
 .contact-main a {
@@ -1319,10 +1324,20 @@ ul {
   color: black;
   justify-content: center;
   text-align: center;
+  /* border: 1px solid black; */
+}
+
+.contact-phone,
+.contact-social,
+.contact-adress {
+  border: 0.1px dotted var(--color-one);
 }
 
 .contact-infos .column {
   margin-bottom: 1.6rem;
+}
+.adress{
+margin-top: 2rem;
 }
 
 .contact-infos a {
