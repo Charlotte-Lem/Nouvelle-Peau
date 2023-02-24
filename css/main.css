@@ -1707,12 +1707,27 @@ footer a:hover {
 
 
 .cgu__content {
+  display: flex;
   color: white;
   margin: 0 300px;
+
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
   text-align: justify;
 }
 
 .cgu__content h1 {
+  text-align: center;
+  font-size: 35px;
+
+}
+.cgu__content h3 {
+  text-align: center;
+  font-size: 15px;
+
+}
+.cgu__content article {
   text-align: center;
 
 }
@@ -1735,11 +1750,11 @@ footer a:hover {
   }
 
   .cgu__content h1 {
-    font-size: 24px;
+    font-size: 44px;
     margin: 10px;
   }
 
-  .cgu__content p {
+  .cgu__content article {
     font-size: 14px;
 
   }
