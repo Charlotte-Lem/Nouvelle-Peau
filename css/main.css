@@ -1,49 +1,4 @@
-/* =================================================================== 
- 
- *  TOC:
- *  # base style overrides
- *     ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing 
- *    ## pace.js styles - minimal
- *  # preloader
- *  # forms 
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles in Chrome
- *  # buttons
- *  # additional components
- *    ## additional typo styles 
- *    ## skillbars
- *    ## alert box 
- *    ## pagination 
- *  # Common and Reusable Styles
- *  # header 
- *    ## header logo
- *    ## main navigation
- *    ## menu trigger
- *  # intro 
- *  # about
- *    ## timeline
- *  # services
- *  # CTA
- *  # works
- *  # testimonials
- *  # contact
- *  # footer
- *    ## copyright
- *    ## go to top
- *  # IE10/IE11 Specific
- *
- * =================================================================== */
 
-/* ===================================================================
- * # base style overrides
- *
- * ------------------------------------------------------------------- */
 
 /* root */
 
@@ -1322,7 +1277,7 @@ ul {
   font-family: 'Frank Ruhl Libre', serif;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 1.333;
+  line-height: 2.3;
   color: black;
   justify-content: center;
   text-align: center;
@@ -1337,6 +1292,7 @@ ul {
 
 .contact-infos .column {
   margin-bottom: 1.6rem;
+  
 }
 
 .adress {
@@ -1677,8 +1633,30 @@ footer a:hover {
 }
 
 
-#cookie-modal {
-  /* display: none;*/
+#cookieBanner {
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-one);
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  background-color:var(--color-two);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #31062e;
+}
+/* #cookie-modal {
+
   top: 810px;
   z-index: 4;
   position: fixed;
@@ -1688,7 +1666,7 @@ footer a:hover {
   background-color: rgb(185, 170, 170);
   padding: 10px;
   text-align: center;
-}
+} */
 
 .cgu__container {
   display: flex;
