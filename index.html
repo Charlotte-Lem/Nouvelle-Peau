@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+
+<head>
+  <!--- basic page needs
+    ================================================== -->
+  <meta charset="UTF-8">
+  <title>Nouvelle Peau</title>
+  <meta name="description" content="Web site for tattoo shop Nouvelle Peau">
+  <meta name="author" content="LCDev ">
+
+  <!-- mobile specific metas
+    ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- GOOGLE FONTS
+    ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS
+    ================================================== -->
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- script
+    ================================================== -->
+  <!-- <script src="js/js-cookie.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+
+  <!-- favicons
+    ================================================== -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body id="top">
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <div id="cookieBanner" style="display: none;">
+    <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site.</p>
+    <button id="acceptButton">Accepter les cookies</button>
+  </div>
+
+
+
+  <!-- site header
+    ================================================== -->
+  <header class="s-header">
+    <div class="header-logo">
+      <a class="site-logo" href="index.html">
+        <img src="images/logo.webp" alt="Homepage">
+      </a>
+    </div>
+
+    <nav class="header-nav-wrap">
+      <ul class="header-main-nav">
+        <li class="current">
+          <a class="smoothscroll" href="#intro" title="intro">Accueil</a>
+        </li>
+        <li class="current">
+          <a class="smoothscroll" href="#about" title="about">
+            A propos de moi
+          </a>
+        </li>
+
+        <li class="current">
+          <a class="smoothscroll" href="#works" title="works">Works</a>
+        </li>
+        <li>
+          <a class="smoothscroll" href="#dispos" title="dispos">Dispos</a>
+        </li>
+        <li class="current">
+          <a class="smoothscroll" href="#contact" title="contact us">
+            Contact
+          </a>
+        </li>
+      </ul>
+
+      <ul class="header-social">
+        <li>
+          <a href="https://www.facebook.com/estellenouvellepeau" aria-label="facebook">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/nouvellepeau" aria-label="instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+  </header>
+  <!-- end s-header -->
+
+  <!-- intro
+    ================================================== -->
+  <section id="intro" class="s-intro target-section">
+    <div class="row intro-content">
+      <div class="column large-9 mob-full intro-text">
+        <h1>Nouvelle Peau</h1>
+        <h2 class="intro-title">
+          Salon de tatouage
+          <br>
+          Réalisme
+          <br>
+          Noir, gris, couleur.
+          <br>
+          <br>
+        </h2>
+      </div>
+
+      <div class="intro-scroll">
+        <a href="#about" class="intro-scroll-link smoothscroll">
+          Scroll For More
+        </a>
+      </div>
+
+      <div class="intro-grid"></div>
+      <div class="intro-pic"></div>
+    </div>
+    <!-- end row -->
+  </section>
+  <!-- end intro -->
+
+  <!-- about
+    ================================================== -->
+  <section id="about" class="s-about target-section">
+    <div class="about-me">
+      <div class="row heading-block" data-aos="fade-up">
+        <div class="column large-full">
+          <h2 class="section-heading">A propos de moi</h2>
+        </div>
+      </div>
+
+      <div class="row about-me__content" data-aos="fade-up">
+        <div class="column large-full about-me__text">
+          <p class="lead">
+            Bienvenue au salon de tatouage Nouvelle Peau, où vous trouverez une expérience de tatouage unique et
+            personnalisée. Je m'appelle Estelle Lemoine et je suis la seule artiste du salon. Je suis diplômée de
+            l'École des beaux-arts, qui a perfectionné mes compétences et m'a donné les capacités artistiques
+            nécessaires pour créer des tatouages vraiment uniques pour mes clients.
+            Je me consacre à fournir à chaque client un tatouage qu'il aimera toute sa vie. Que vous recherchiez un
+            petit dessin délicat ou une grande pièce détaillée, je suis là pour vous aider à donner vie à vos idées de
+            tatouage.
+            <br>
+            N'hésitez pas à venir pousser la porte du salon ou à me contacter pour vos futurs projets !
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- works
+    ================================================== -->
+  <section id="works" class="s-works target-section">
+    <div class="row heading-block heading-block--center" data-aos="fade-up">
+      <div class="column large-full">
+        <h2 class="section-heading section-heading--centerbottom">
+          Mon travail :
+        </h2>
+        <h3 class="section-desc">
+          Vous trouverez ci-dessous quelques tatouages déjà réalisés
+        </h3>
+      </div>
+    </div>
+    <!-- end heading-block -->
+
+    <div class="masonry-wrap">
+      <div class="masonry">
+        <div class="grid-sizer"></div>
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork1.webp" class="thumb-link" title="Dolls" data-size="500x800">
+                <img src="images/work/imgwork1.webp" srcset="
+                      images/work/imgwork1.webp 1x,
+                      images/work/imgwork1.webp 2x
+                    " alt="Bear dolls tattoo">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Dolls</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork2.webp" class="thumb-link" title="Dolls" data-size="500x800">
+                <img src="images/work/imgwork2.webp" srcset="
+                      images/work/imgwork2.webp 1x,
+                      images/work/imgwork2.webp 2x
+                    " alt="Dolls tattoo">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Dolls</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork3.webp" class="thumb-link" title="skeleton" data-size="500x800">
+                <img src="images/work/imgwork3.webp" srcset="
+                      images/work/imgwork3.webp 1x,
+                      images/work/imgwork3.webp 2x
+                    " alt="skeleton">
+              </a>
+              <!--  -->
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Skeleton</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork4.webp" class="thumb-link" title="Butterfly" data-size="500x800">
+                <img src="images/work/imgwork4.webp" srcset="
+                      images/work/imgwork4.webp 1x,
+                      images/work/imgwork4.webp 2x
+                    " alt="Lion Woman and Butterfly tattoo">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Butterfly</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork5.webp" class="thumb-link" title="Vikings" data-size="500x800">
+                <img src="images/work/imgwork5.webp" srcset="
+                      images/work/imgwork5.webp 1x,
+                      images/work/imgwork5.webp 2x
+                    " alt="Vikings">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Vikings</h4>
+              <!-- ou valkyrie???-->
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork6.webp" class="thumb-link" title="Bird and Cherry Blossom"
+                data-size="500x800">
+                <img src="images/work/imgwork6.webp" srcset="
+                      images/work/imgwork6.webp 1x,
+                      images/work/imgwork6.webp 2x
+                    " alt="Birds tattoo">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Birds</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork7.webp" class="thumb-link" title="Catrina" data-size="500x800">
+                <img src="images/work/imgwork7.webp" srcset="
+                      images/work/imgwork7.webp 1x,
+                      images/work/imgwork7.webp 2x
+                    " alt="Catrina tattoo">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Catrina</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork8.webp" class="thumb-link" title="Lion" data-size="500x800">
+                <img src="images/work/imgwork8.webp" srcset="
+                      images/work/imgwork8.webp 1x,
+                      images/work/imgwork8.webp 2x
+                    " alt="Lion tattoo">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Lion</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/work/imgwork10.webp" class="thumb-link" title="Lion" data-size="500x800">
+                <img src="images/work/imgwork10.webp" srcset="
+                      images/work/imgwork10.webp 1x,
+                      images/work/imgwork10.webp 2x
+                    " alt="Lion tattoo back">
+              </a>
+            </div>
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Lion</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+      </div>
+      <!-- end masonry -->
+    </div>
+    <!-- end masonry-wrap -->
+  </section>
+  <!-- end s-work -->
+
+  <section id="info" class="s-about target-section">
+    <div class="row heading-block" data-aos="fade-up">
+      <div class="column large-full">
+        <h2 class="section-heading">Information:</h2>
+      </div>
+    </div>
+
+    <div class="row about-me__content" data-aos="fade-up">
+      <div class="column large-full about-me__text">
+        <p class="lead">
+          Une demande, un rendez-vous à prendre, n'hésitez pas à passer au
+          salon.
+          <br>
+          <span class="warning">
+            Attention le salon ne tatoue pas les mineurs même avec consentement
+            des parents.
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--work disponible ================================================== -->
+  <section id="dispos" class="s-works target-section">
+    <div class="row heading-block heading-block--center" data-aos="fade-up">
+      <div class="column large-full">
+        <h2 class="section-heading section-heading--centerbottom">
+          Disponible :
+        </h2>
+        <h3 class="section-desc">
+          Exemples de tatouages disponibles à la réalisation :
+        </h3>
+        <h4>
+          ( D'autres dessins disponibles sur mes réseaux ou en magasin ! )
+        </h4>
+      </div>
+    </div>
+
+    <div class="masonry-wrap">
+      <div class="masonry">
+        <div class="grid-sizer"></div>
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo1.webp" class="thumb-link" title="Woman" data-size="500x800">
+                <img src="images/dispos/dispo1.webp" srcset="
+                      images/dispos/dispo1.webp 1x,
+                      images/dispos/dispo1.webp 2x
+                    " alt="Woman">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo2.webp" class="thumb-link" title="sculpture" data-size="500x800">
+                <img src="images/dispos/dispo2.webp" srcset="
+                      images/dispos/dispo2.webp 1x,
+                      images/dispos/dispo2.webp 2x
+                    " alt="sculpture">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo3.webp" class="thumb-link" title="Woman and flowers" data-size="500x800">
+                <img src="images/dispos/dispo3.webp" srcset="
+                      images/dispos/dispo3.webp 1x,
+                      images/dispos/dispo3.webp 2x
+                    " alt="Woman and flowers">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo4.webp" class="thumb-link" title="Lips and cross" data-size="500x800">
+                <img src="images/dispos/dispo4.webp" srcset="
+                      images/dispos/dispo4.webp 1x,
+                      images/dispos/dispo4.webp 2x
+                    " alt="Lips and cross">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo5.webp" class="thumb-link" title="Cherry Blossom and Robot"
+                data-size="500x800">
+                <img src="images/dispos/dispo5.webp" srcset="
+                      images/dispos/dispo5.webp 1x,
+                      images/dispos/dispo5.webp 2x
+                    " alt="Cherry Blossom and Robot">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo6.webp" class="thumb-link" title="Woman emerald " data-size="500x800">
+                <img src="images/dispos/dispo6.webp" srcset="
+                      images/dispos/dispo6.webp 1x,
+                      images/dispos/dispo6.webp 2x
+                    " alt="Woman emerald">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo7.webp" class="thumb-link" title="Woman face and flower crown"
+                data-size="500x800">
+                <img src="images/dispos/dispo7.webp" srcset="
+                      images/dispos/dispo7.webp 1x,
+                      images/dispos/dispo7.webp 2x
+                    " alt="woman face and flower crown">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo8.webp" class="thumb-link" title="Woman and raven" data-size="500x800">
+                <img src="images/dispos/dispo8.webp" srcset="
+                      images/dispos/dispo8.webp 1x,
+                      images/dispos/dispo8.webp 2x
+                    " alt="Woman and raven">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo9.webp" class="thumb-link" title="horned female warrior" data-size="500x800">
+                <img src="images/dispos/dispo9.webp" srcset="
+                      images/dispos/dispo9.webp 1x,
+                      images/dispos/dispo9.webp 2x
+                    " alt="horned female warrior">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo10.webp" class="thumb-link" title="Nun in hell" data-size="500x800">
+                <img src="images/dispos/dispo10.webp" srcset="
+                      images/dispos/dispo10.webp 1x,
+                      images/dispos/dispo10.webp 2x
+                    " alt="nun in hell">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo11.webp" class="thumb-link" title="Hanged skeleton, woman and candle"
+                data-size="500x800">
+                <img src="images/dispos/dispo6.webp" srcset="
+                      images/dispos/dispo11.webp 1x,
+                      images/dispos/dispo11.webp 2x
+                    " alt="Hanged skeleton, woman and candle">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo12.webp" class="thumb-link" title="warriors" data-size="500x800">
+                <img src="images/dispos/dispo12.webp" srcset="
+                      images/dispos/dispo12.webp 1x,
+                      images/dispos/dispo12.webp 2x
+                    " alt="warriors">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo13.webp" class="thumb-link" title="Snake woman" data-size="500x800">
+                <img src="images/dispos/dispo13.webp" srcset="
+                      images/dispos/dispo13.webp 1x,
+                      images/dispos/dispo13.webp 2x
+                    " alt="snake woman">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo14.webp" class="thumb-link" title="Angel dove" data-size="500x800">
+                <img src="images/dispos/dispo14.webp" srcset="
+                      images/dispos/dispo14.webp 1x,
+                      images/dispos/dispo14.webp 2x
+                    " alt="Angel dove">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="masonry__brick" data-aos="fade-up">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/dispos/dispo16.webp" class="thumb-link" title="Soap bubble" data-size="500x800">
+                <img src="images/dispos/dispo16.webp" srcset="
+                      images/dispos/dispo16.webp 1x,
+                      images/dispos/dispo16.webp 2x
+                    " alt="Soap bubble">
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h4 class="item-folio__title">Disponible</h4>
+              <p class="item-folio__cat">Nouvelle Peau</p>
+            </div>
+
+            <div class="item-folio__caption">
+              <p>Nouvelle Peau</p>
+            </div>
+          </div>
+        </div>
+        <!-- end masonry__brick -->
+      </div>
+      <!-- end masonry -->
+    </div>
+    <!-- end masonry-wrap -->
+  </section>
+  <!-- end s-work disponible  -->
+
+  <!-- contact  -->
+  <section id="contact" class="s-contact ss-dark target-section">
+    <div class="row heading-block" data-aos="fade-up">
+      <div class="column large-full">
+        <h2 class="section-heading section-heading--centerbottom">Contact</h2>
+      </div>
+    </div>
+
+    <div class="row contact-main" data-aos="fade-up">
+      <div class="column large-full">
+        <p class="section-desc">
+          <span>Besoin d'information? Envoyez-moi un mail</span>
+          <a class="contact-mail" href="mailto:nouvelle-peau@outlook.com">
+            en cliquant ici
+          </a>
+          <span> ou en écrivant à <br>
+            nouvelle-peau@outlook.com *</span>
+
+        </p>
+        <span class="contact-mail__donnees">* Vos informations seront utilisées uniquement pour répondre à votre
+          demande. Nous ne partagerons jamais vos données. </span>
+      </div>
+    </div>
+
+    <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+      <div class="column large-3 medium-full contact-phone">
+        <h3>Horaires d'ouvertures :</h3>
+        <p class="hours">
+          Mardi au Vendredi :
+          <br>
+          9H00 / 11H30
+          <br>
+          14h00 / 18H00
+          <br>
+          Samedi :
+          <br>
+          14H00 / 18H00
+          <br>
+          Fermé :
+          <br>
+          Dimanche / Lundi
+        </p>
+      </div>
+      <div class="column large-3 medium-full contact-social">
+        <h3>Social</h3>
+        <ul class="networks">
+          <li>
+            <a href="https://www.facebook.com/estellenouvellepeau" title="Facebook">
+              Facebook
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/nouvellepeau" title="Instagram">
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="column large-3 medium-full contact-adress">
+        <h3>Adresse :</h3>
+
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2548.376290642697!2d2.7613780514012594!3d50.3035695057175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd486bfa55f645%3A0xefe9a9a17cd1d793!2sNouvelle%20Peau%20Tattoo%20Shop!5e0!3m2!1sfr!2sfr!4v1673452150539!5m2!1sfr!2sfr"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+        </div>
+        <p class="adress"> 64 route de Lens
+          <br>
+          62223
+          <br>
+          Sainte-Catherine-lèz-Arras
+
+        </p>
+
+      </div>
+
+
+    </div>
+    <!-- end contact-infos -->
+  </section>
+  <!-- end s-contact -->
+
+  <!-- footer
+    ================================================== -->
+  <footer>
+    <div class="footer-content">
+      <div class=" ss-copyright">
+        <span> Copyright ©2023 Nouvelle Peau | Tous droits réservés | Site réalisé par LC DWeb</span>
+      </div>
+      <div class="cgu">
+        <a href="./cgu.html">
+          Conditions Générales d'Utilisations
+        </a>
+      </div>
+      <div class="footer-social">
+        <ul class="footer-social__liste">
+          <li>
+            <a href="https://www.facebook.com/estellenouvellepeau" aria-label="facebook">
+              <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nouvellepeau" aria-label="instagram">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ss-go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- photoswipe background
+    ================================================== -->
+  <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end photoSwipe background -->
+
+  <!-- Java Script
+    ================================================== -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/js-cookie.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
