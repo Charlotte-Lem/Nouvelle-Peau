@@ -1,4 +1,49 @@
+/* =================================================================== 
+ 
+ *  TOC:
+ *  # base style overrides
+ *     ## links
+ *  # typography & general theme styles
+ *    ## Lists
+ *    ## responsive video container
+ *    ## floated image
+ *    ## tables
+ *    ## Spacing 
+ *    ## pace.js styles - minimal
+ *  # preloader
+ *  # forms 
+ *    ## Style Placeholder Text
+ *    ## Change Autocomplete styles in Chrome
+ *  # buttons
+ *  # additional components
+ *    ## additional typo styles 
+ *    ## skillbars
+ *    ## alert box 
+ *    ## pagination 
+ *  # Common and Reusable Styles
+ *  # header 
+ *    ## header logo
+ *    ## main navigation
+ *    ## menu trigger
+ *  # intro 
+ *  # about
+ *    ## timeline
+ *  # services
+ *  # CTA
+ *  # works
+ *  # testimonials
+ *  # contact
+ *  # footer
+ *    ## copyright
+ *    ## go to top
+ *  # IE10/IE11 Specific
+ *
+ * =================================================================== */
 
+/* ===================================================================
+ * # base style overrides
+ *
+ * ------------------------------------------------------------------- */
 
 /* root */
 
@@ -1277,7 +1322,7 @@ ul {
   font-family: 'Frank Ruhl Libre', serif;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 2.3;
+  line-height: 1.333;
   color: black;
   justify-content: center;
   text-align: center;
@@ -1292,7 +1337,6 @@ ul {
 
 .contact-infos .column {
   margin-bottom: 1.6rem;
-  
 }
 
 .adress {
@@ -1655,18 +1699,6 @@ button {
 button:hover {
   background-color: #31062e;
 }
-/* #cookie-modal {
-
-  top: 810px;
-  z-index: 4;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(185, 170, 170);
-  padding: 10px;
-  text-align: center;
-} */
 
 .cgu__container {
   display: flex;
